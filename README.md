@@ -121,7 +121,7 @@ The analysis is structured around the **OKR → KPI → Metric pyramid**. Every 
 
 ## 3. Executive Overview — Northstar Metrics
 
-<!-- PLACEHOLDER: img_northstar_metrics.jpg -->
+![North Star Metrics](https://github.com/Manik-Kapil/GoodPulse-EComRetentionFiasco/blob/b666bc9562480c75cdc9511c1d43c1ce354f4348/img_northstar_metrics.png)
 
 | Metric | Value |
 |--------|-------|
