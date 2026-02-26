@@ -1,3 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120" width="400" height="120">
+  <defs>
+    <linearGradient id="pulseGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#5b9bd5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#a8c8e8;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e2130;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#262b3d;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background pill -->
+  <rect x="0" y="0" width="400" height="120" rx="16" ry="16" fill="url(#bgGrad)"/>
+
+  <!-- Subtle border -->
+  <rect x="1" y="1" width="398" height="118" rx="15" ry="15" fill="none" stroke="#5b9bd5" stroke-width="0.8" stroke-opacity="0.3"/>
+
+  <!-- Icon: pulse / heartbeat line inside a circle -->
+  <!-- Circle ring -->
+  <circle cx="62" cy="60" r="34" fill="none" stroke="#5b9bd5" stroke-width="2" stroke-opacity="0.25"/>
+  <circle cx="62" cy="60" r="26" fill="#5b9bd5" fill-opacity="0.08"/>
+
+  <!-- Pulse line — flat, spike, flat -->
+  <polyline
+    points="30,60 44,60 50,42 56,78 62,54 68,66 74,60 94,60"
+    fill="none"
+    stroke="url(#pulseGrad)"
+    stroke-width="2.8"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    filter="url(#glow)"
+  />
+
+  <!-- Dot at peak of pulse -->
+  <circle cx="56" cy="78" r="3" fill="#a8c8e8" filter="url(#glow)"/>
+  <circle cx="62" cy="54" r="2.2" fill="#5b9bd5" filter="url(#glow)"/>
+
+  <!-- Wordmark: GoodPulse on one line -->
+  <text
+    x="112"
+    y="58"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="34"
+    font-weight="700"
+    letter-spacing="-0.5"
+    fill="#a8c8e8"
+  >Good<tspan fill="url(#pulseGrad)" font-weight="300" letter-spacing="1">Pulse</tspan></text>
+
+  <!-- Thin divider line -->
+  <line x1="112" y1="68" x2="385" y2="68" stroke="#5b9bd5" stroke-width="0.6" stroke-opacity="0.35"/>
+
+  <!-- Tagline -->
+  <text
+    x="113"
+    y="88"
+    font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+    font-size="11"
+    font-weight="400"
+    letter-spacing="2.2"
+    fill="#5b9bd5"
+    fill-opacity="0.65"
+  >E-Commerce Analytics made easy.</text>
+
+</svg>
 # GoodPulse — Executive Performance Report
 
 > **Data Stack:** Amazon S3 · Databricks (Medallion Architecture) · Looker
