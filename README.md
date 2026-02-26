@@ -1,4 +1,4 @@
-# GoodPulse — Executive Data Analytics Performance Report
+# GoodPulse — Executive Performance Report
 
 > **Data Stack:** Amazon S3 · Databricks (Medallion Architecture) · Looker
 > **Dataset:** Olist E-Commerce + Olist Marketing (Kaggle)
