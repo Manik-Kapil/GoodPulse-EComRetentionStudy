@@ -1,4 +1,4 @@
-![GoodPulse Logo](.Visualizations/goodpulse_logo.svg)
+![GoodPulse Logo](Visualizations/goodpulse_logo.svg)
 # Executive Performance Report
 
 > **Data Stack:** Amazon S3 · Databricks (Medallion Architecture) · Looker
