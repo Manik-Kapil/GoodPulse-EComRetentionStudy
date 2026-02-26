@@ -137,7 +137,7 @@ At first glance, the platform is generating meaningful scale. But two numbers de
 
 ### 3.1 Customer Distribution by Frequency
 
-![screenshot](img_freq_distribution.jpg)
+!(img_freq_distribution.jpg)
 <!-- PLACEHOLDER: img_freq_distribution.jpg -->
 
 The frequency breakdown confirms how skewed the customer base is:
