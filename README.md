@@ -8,7 +8,7 @@
 
 ## Table of Contents
 
-1. [Platform & Project Overview](#1-organization-overview-and-summary)
+1. [Organization Overview & Executive Summary](#1-organization-overview-and-summary)
 2. [OKR Framework](#2-okr-framework)
 3. [Executive Overview — Northstar Metrics](#3-executive-overview--northstar-metrics)
    - 3.1 [Customer Distribution by Frequency](#31-customer-distribution-by-frequency)
@@ -52,55 +52,36 @@ Out of 93,358 customers:
 This indicates that GoodPulse operates almost entirely on first-time transactional revenue.
 
 **Revenue Sustainability Risk**
-
 Despite generating $15.5M in total revenue, the majority of revenue is sourced from one-time buyers.
-
 Revenue concentration analysis shows:
 
-High Value customers generate the majority of total revenue
-
-However, most high-value revenue is classified as Dormant
-
-High Value Dormant Revenue: $4.9M
-High Value Recent Revenue: $1.7M
+- High Value customers generate the majority of total revenue
+- However, most high-value revenue is classified as Dormant
+- High Value Dormant Revenue: $4.9M
+- High Value Recent Revenue: $1.7M
 
 This indicates significant leakage of previously valuable customers.
 
-Cohort Retention Analysis
-
+**Cohort Retention Analysis**
 Cohort analysis reveals immediate retention decay:
+- Month 0 retention = 100%
+- Month 1 retention drops sharply toward zero
+- Retention remains negligible beyond Month 1
 
-Month 0 retention = 100%
+This confirms the repeat rate issue at a structural level. The business lacks customer lifecycle stickiness.
 
-Month 1 retention drops sharply toward zero
-
-Retention remains negligible beyond Month 1
-
-This confirms the repeat rate issue at a structural level.
-
-The business lacks customer lifecycle stickiness.
-
-Lifecycle Distribution
-
+**Lifecycle Distribution**
 Revenue distribution by lifecycle segment:
+*Dormant > Active > At Risk*
+This means more revenue is sitting in inactive customers than in actively engaged ones. Without retention improvement, revenue will depend entirely on constant acquisition.
 
-Dormant > Active > At Risk
+**Key Risks Identified**
 
-This means more revenue is sitting in inactive customers than in actively engaged ones.
-
-Without retention improvement, revenue will depend entirely on constant acquisition.
-
-Key Risks Identified
-
-Revenue is acquisition-dependent
-
-Customer lifetime value is structurally constrained
-
-High-value customers are not retained
-
-Cohorts fail to mature beyond initial purchase
-
-Long-term growth is unstable without retention improvement
+1. Revenue is acquisition-dependent
+2. Customer lifetime value is structurally constrained
+3. High-value customers are not retained
+4. Cohorts fail to mature beyond initial purchase
+5. Long-term growth is unstable without retention improvement
 
 
 **Pipeline Layers:**
