@@ -1,4 +1,4 @@
-https://github.com/Manik-Kapil/GoodPulse-EComRetentionFiasco/blob/ea6c71adbc5c990b1e4f21e48f86330a6d8d406b/goodpulse_logo.svg
+![GoodPulse Logo](https://github.com/Manik-Kapil/GoodPulse-EComRetentionFiasco/blob/ea6c71adbc5c990b1e4f21e48f86330a6d8d406b/goodpulse_logo.svg)
 # GoodPulse — Executive Performance Report
 
 > **Data Stack:** Amazon S3 · Databricks (Medallion Architecture) · Looker
