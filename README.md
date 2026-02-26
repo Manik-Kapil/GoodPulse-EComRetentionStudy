@@ -35,9 +35,11 @@
 
 ## 1. Organization Overview and Summary 
 
-GoodPulse is a digitally native ecommerce business. The company operates across multiple acquisition channels and product categories. While revenue volume appears strong, preliminary analysis reveals structural challenges in customer retention and lifecycle sustainability. 
+GoodPulse is a data-driven analytical simulation of a rapidly scaling e-commerce marketplace modeled using the Olist Brazilian e-commerce dataset enriched with marketing data. Operating in a competitive digital commerce landscape, GoodPulse serves a diverse customer base across multiple regions and product categories. 
 
-The pipeline follows a **Medallion Architecture** in Databricks, progressively refining raw transactional and marketing data through three layers before surfacing insights in Looker.
+The company operates across multiple acquisition channels and product categories. While revenue volume appears strong, preliminary analysis reveals structural challenges in customer retention and lifecycle sustainability. 
+
+The data pipeline follows a **Medallion Architecture** in Databricks, progressively refining raw transactional and marketing data through three layers before surfacing insights in Looker.
 
 **Executive Summary**
 Core Structural Issue: Extremely Low Repeat Rate
@@ -102,9 +104,9 @@ The reporting period spans **Q3 2016 through Q2 2018**, covering **93,358 unique
 
 The analysis is structured around the **OKR → KPI → Metric pyramid**. Every data point in this report connects upward to a strategic objective.
 
-> **Metrics** are any quantitative value we can track. *(e.g. "Total orders were 96.5K")*
-> **KPIs** are the metrics that genuinely reflect performance and are influenceable by the team. *(e.g. "Repeat rate is 3%")*
-> **OKRs** are the change we want to execute — the goals KPIs are in service of.
+> - **Metrics** are any quantitative value we can track. *(e.g. "Total orders were 96.5K")*
+> - **KPIs** are the metrics that genuinely reflect performance and are influenceable by the team. *(e.g. "Repeat rate is 3%")*
+> - **OKRs** are the change we want to execute — the goals KPIs are in service of.
 
 **Objectives for this reporting period:**
 
